@@ -1,1 +1,0 @@
-(function(){RAML.Security.basicAuth=function(){return{restrict:"E",templateUrl:"security/basic_auth.tpl.html",replace:true,scope:{credentials:"\x3d"},controller:["$scope",function($scope){$scope.onChange=function(){$scope.$parent.context.forceRequest=false}}]}};angular.module("RAML.Security").directive("basicAuth",RAML.Security.basicAuth)})();
